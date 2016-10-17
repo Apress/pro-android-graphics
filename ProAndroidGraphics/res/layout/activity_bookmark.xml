@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" >
+    <ImageView android:id="@+id/backgroundImage" android:background="@drawable/cloudsky"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:contentDescription="@string/bmi" android:scaleType="fitXY"
+        android:tint="#44FFFFFF" android:baseline="30dp" />
+    <TextView android:id="@+id/currentBookmarkText" android:background="#00000000"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/bookmark_text" android:layout_marginTop="0dip"
+        android:layout_centerHorizontal="true" android:typeface="monospace"
+        android:textStyle="bold" android:textSize="21sp" android:shadowDx="-1.7"
+        android:shadowDy="1.675" android:shadowColor="#BB333333"
+        android:shadowRadius="1.75" android:layout_alignBaseline="@+id/backgroundImage"/>
+    <ImageView android:id="@+id/currentBookmarkImage"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:src="@drawable/bookmarks0" android:contentDescription="@string/bmi"
+        android:layout_below="@+id/currentBookmarkText" android:layout_margin="0dp"
+        android:clickable="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

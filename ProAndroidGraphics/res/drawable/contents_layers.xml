@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/layerOne"
+        android:drawable="@drawable/cloudsky" />
+    <item
+        android:id="@+id/layerTwo"
+        android:drawable="@drawable/ninepatchframe" />
+    <item
+        android:id="@+id/layerThree"
+        android:drawable="@drawable/bookmark0" />
+</layer-list>

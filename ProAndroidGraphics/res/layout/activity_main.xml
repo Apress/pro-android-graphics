@@ -1,0 +1,14 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/layoutContainer" >
+    <VideoView android:id="@+id/splashScreenVideoView"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" android:layout_alignParentBottom="true"
+        android:keepScreenOn="true" />
+    <ImageView android:id="@+id/pagImageView" android:src="@drawable/anim_intro"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:contentDescription="@string/anim_intro_desc"
+        android:layout_centerInParent="true" />
+</RelativeLayout>

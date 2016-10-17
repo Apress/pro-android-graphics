@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/pag0" android:duration="112" />
+    <item android:drawable="@drawable/pag1" android:duration="111" />
+    <item android:drawable="@drawable/pag2" android:duration="111" />
+    <item android:drawable="@drawable/pag3" android:duration="111" />
+    <item android:drawable="@drawable/pag4" android:duration="111" />
+    <item android:drawable="@drawable/pag5" android:duration="111" />
+    <item android:drawable="@drawable/pag6" android:duration="111" />
+    <item android:drawable="@drawable/pag7" android:duration="111" />
+    <item android:drawable="@drawable/pag8" android:duration="111" />                
+</animation-list>

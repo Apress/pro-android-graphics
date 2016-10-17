@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pro.android.graphics" android:versionCode="1" android:versionName="1.0" >
+    <supports-screens
+        android:largeScreens="true" android:xlargeScreens="true" />
+    <uses-sdk
+        android:minSdkVersion="16" android:targetSdkVersion="17" />
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true" android:icon="@drawable/pag_icon"
+        android:label="@string/app_name" android:theme="@style/AppTheme" >
+        <activity
+            android:name="pro.android.graphics.MainActivity" android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pro.android.graphics.ContentsActivity" android:label="@string/toc_title" />
+        <activity
+            android:name="pro.android.graphics.BookmarkActivity" android:label="@string/bmu_title" />
+        <activity
+            android:name="pro.android.graphics.SketchPad" android:label="@string/sketchPad_utility" />
+        </application>
+</manifest>
